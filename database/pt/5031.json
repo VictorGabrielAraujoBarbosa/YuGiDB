@@ -1,0 +1,15 @@
+{
+  "id": 5031,
+  "type": "monster",
+  "name": "Lily, a Fada Enfermeira",
+  "englishAttribute": "earth",
+  "localizedAttribute": "TERRA",
+  "effectText": "Uma vez por batalha, durante o cálculo de dano, se este card batalhar (Efeito Rápido): você pode pagar 2000 PV; este card ganha 3000 de ATK apenas durante esse cálculo de dano.",
+  "level": 3,
+  "atk": 400,
+  "def": 1500,
+  "properties": [
+    "Mago",
+    "Efeito"
+  ]
+}

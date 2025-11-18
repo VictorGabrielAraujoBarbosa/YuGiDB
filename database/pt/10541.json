@@ -1,0 +1,8 @@
+{
+  "id": 10541,
+  "type": "spell",
+  "name": "Magia de Aumento de Classe Força de Barian",
+  "englishAttribute": "spell",
+  "localizedAttribute": "MAGIA",
+  "effectText": "Escolha 1 Monstro Xyz com a face para cima que você controla; Invoque por Invocação-Especial do seu Deck Adicional, 1 monstro \"Número C\" ou \"CXyz\" com o mesmo Tipo que o desse monstro que você controla, mas 1 Classe maior, usando-o como matéria (isso é considerado uma Invocação-Xyz, transfira as matérias dele para o monstro Invocado) e, depois, se possível, desassocie 1 Matéria Xyz de um monstro que seu oponente controla e associe-a ao monstro Invocado."
+}

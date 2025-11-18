@@ -1,0 +1,16 @@
+{
+  "id": 11713,
+  "type": "monster",
+  "name": "Necroz de Sofia",
+  "englishAttribute": "light",
+  "localizedAttribute": "LUZ",
+  "effectText": "Você pode Invocar este card por Invocação-Ritual com qualquer Magia de Ritual \"Necroz\". Deve ser Invocado por Invocação-Ritual, usando 3 monstros que você controla com Tipos diferentes. Durante a Fase Principal 1 (Efeito Rápido): você pode descartar este card e 1 Magia \"Necroz\"; seu oponente não pode Invocar por Invocação-Especial do Deck Adicional durante esta fase. Quando este card for Invocado por Invocação-Ritual: você pode banir todos os outros cards no campo e nos Cemitérios. Você não pode Invocar outros monstros por Invocação-Normal/Baixar ou por Invocação-Especial no turno em que ativar este efeito.",
+  "level": 11,
+  "atk": 3600,
+  "def": 3400,
+  "properties": [
+    "Mago",
+    "Ritual",
+    "Efeito"
+  ]
+}
