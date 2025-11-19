@@ -1,0 +1,15 @@
+{
+  "id": 9455,
+  "type": "monster",
+  "name": "\"C\" Maxx",
+  "englishAttribute": "earth",
+  "localizedAttribute": "TERRA",
+  "effectText": "(Efeito Rápido): você pode enviar este card da sua mão para o Cemitério; neste turno, sempre que seu oponente Invocar um ou mais monstros por Invocação-Especial, imediatamente compre 1 card. Você só pode usar este efeito de \"\"C\" Maxx\" uma vez por turno.",
+  "level": 2,
+  "atk": 500,
+  "def": 200,
+  "properties": [
+    "Inseto",
+    "Efeito"
+  ]
+}

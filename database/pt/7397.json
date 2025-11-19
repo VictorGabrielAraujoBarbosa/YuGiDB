@@ -1,0 +1,15 @@
+{
+  "id": 7397,
+  "type": "monster",
+  "name": "Rei do Trovão Rai-Oh",
+  "englishAttribute": "light",
+  "localizedAttribute": "LUZ",
+  "effectText": "Nenhum duelista pode adicionar cards do seu Deck à sua mão, exceto ao comprá-los. Quando seu oponente Invocaria exatamente 1 monstro por Invocação-Especial (Efeito Rápido): você pode enviar este card com a face para cima para o Cemitério; negue a Invocação-Especial e, se isso acontecer, destrua-o.",
+  "level": 4,
+  "atk": 1900,
+  "def": 800,
+  "properties": [
+    "Trovão",
+    "Efeito"
+  ]
+}
