@@ -7,12 +7,12 @@ class Deck:
         self.cards.append(card)
 
     def remove_card(self, card_id):
-        self.cards = [c for c in self.cards if c.id != card_id]
+        self.cards = [c for c in self.cards if c != card_id]
 
     def to_dict(self):
         return {
             "name": self.name,
-            "cards": [c.id for c in self.cards]
+            "cards": [c for c in self.cards]
         }
 
     def __repr__(self):
