@@ -10,14 +10,14 @@ def dados():
 
 class TestDeck:
 
-    def test_init(self, dados):
+    def test_create_empty_deck_with_name(self, dados):
 
         deck = Deck(dados["nome"])
 
         assert deck.name == dados["nome"]
         assert deck.cards == []
 
-    def test_add_card(self, dados):
+    def test_adding_multiple_cards(self, dados):
 
         deck = Deck(dados["nome"])
 
@@ -27,7 +27,7 @@ class TestDeck:
         assert deck.cards == dados["cartas"]
         assert len(deck.cards) == 3
 
-    def test_remove_card(self, dados):
+    def test_remove_card_from_id(self, dados):
 
         deck = Deck(dados["nome"])
 
@@ -40,8 +40,10 @@ class TestDeck:
         assert 2 in deck.cards
         assert 3 in deck.cards
         assert len(deck.cards) == 2
+    
 
-    def test_to_dict(self, dados):
+
+    def test_convert_deck_to_dictionary(self, dados):
 
         deck = Deck(dados["nome"])
 
@@ -55,7 +57,7 @@ class TestDeck:
 
         assert deck.to_dict() == dicionario_esperado
 
-    def test_repr_(self, dados):
+    def test_representacao_como_string(self, dados):
 
         deck = Deck(dados["nome"])
 
