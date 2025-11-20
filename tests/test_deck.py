@@ -17,6 +17,16 @@ class TestDeck:
         assert deck.name == dados["nome"]
         assert deck.cards == []
 
+    def test_adding_a_card(self, dados):
+
+        deck = Deck(dados["nome"])
+
+        deck.add_card(1)
+
+        assert deck.cards == [1]
+        assert len(deck.cards) == 1
+
+
     def test_adding_multiple_cards(self, dados):
 
         deck = Deck(dados["nome"])
@@ -41,6 +51,32 @@ class TestDeck:
         assert 3 in deck.cards
         assert len(deck.cards) == 2
     
+    def test_remove_multiple_cards_from_id(self, dados):
+
+        deck = Deck(dados["nome"])
+
+        for carta in dados["cartas"]:
+            deck.add_card(carta)
+
+        deck.remove_card(1)
+        deck.remove_card(2)
+        deck.remove_card(3)
+
+        assert 1 not in deck.cards
+        assert 2 not in deck.cards
+        assert 3 not in deck.cards
+        assert len(deck.cards) == 0
+    
+    def test_only_removes_one_card_per_call(self, dados):
+
+        deck = Deck(dados["nome"])
+        deck.add_card(1)
+        deck.add_card(1)
+
+        deck.remove_card(1)
+
+        assert 1 in deck.cards
+        assert len(deck.cards) == 1
 
 
     def test_convert_deck_to_dictionary(self, dados):
