@@ -78,6 +78,15 @@ class TestDeck:
         assert 1 in deck.cards
         assert len(deck.cards) == 1
 
+    def test_removing_a_non_existent_card_does_nothing(self, dados):
+
+        deck = Deck(dados["nome"])
+        deck.add_card(1)
+
+        deck.remove_card(-1)
+
+        assert 1 in deck.cards
+        assert len(deck.cards) == 1
 
     def test_convert_deck_to_dictionary(self, dados):
 
