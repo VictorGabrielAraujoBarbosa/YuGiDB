@@ -6,8 +6,12 @@ class Deck:
     def add_card(self, card):
         self.cards.append(card)
 
-    def remove_card(self, card_id):
-        self.cards = [c for c in self.cards if c != card_id]
+    def remove_card(self, card_id, amount=1):
+        removed = 0
+        for card in self.cards[:]:
+            if card == card_id and removed < amount:
+                self.cards.remove(card)
+                removed += 1
 
     def to_dict(self):
         return {
