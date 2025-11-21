@@ -33,5 +33,5 @@ class CardDatabase:
         text = text.lower()
         return [
             card for card in self.cards.values()
-            if text in card.name.lower()
+            if text in card.name.lower() or text in card.effect.lower()
         ]
